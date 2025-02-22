@@ -1,0 +1,13 @@
+div.greetDiv.greet {
+  color:green;
+} /* Specificity 021 div is  a element and div.greetDiv is a class */
+
+.greetDiv p.greet {
+  color:blue;
+} /* Specificity 021 */
+
+.greetDiv .greet {
+  color:red;
+} /* Specificity 020 */
+/* since blue and green have same specificity, so according to cascading
+property , blue will be executed */

@@ -1,0 +1,23 @@
+h1 {
+  color:pink;
+}
+
+#greet {
+  color:yellow;
+}
+
+.myClass {
+  color:brown;
+}
+
+div p {
+  background-color:black;
+} /* Specificity 002 */
+ 
+.para {
+  background-color:blue;
+} /* Specificity 010 */
+
+p {
+  background-color:green;
+}  /* Specificity 001 */

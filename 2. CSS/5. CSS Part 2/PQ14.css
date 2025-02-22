@@ -1,0 +1,9 @@
+/* Set the color for paragraphs inside divs with the id "myId" to green */
+div[id="myId"] p {
+  color:green;
+}
+/* Alternative method
+#myId p {
+  color:green;
+}
+*/
